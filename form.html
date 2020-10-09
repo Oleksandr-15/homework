@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>HTML Form</title>
-</head>
-<body>
-	<nav>
-        <a href="index.html">Головна</a>
-    </nav>
-    <form action="https://formspree.io/xjvanzgj" method="post">
-        <h1>Підбір фільму</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Form</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Головна</a>
+        </nav>
+        <form action="https://formspree.io/xjvanzgj" method="post">
+            <h1>Підбір фільму</h1>
             <p>Який жанр фільму вам подобається</p>
-                <label>
-                    <input type="radio" name="genre" value="comedy">Комедії
-                </label>
-                <label>
-                    <input type="radio" name="genre" value="military">Воєнні
-                </label>
-                <label>
-                    <input type="radio" name="genre" value="historical">Історичні
-                </label>
-                <label>
-                    <input type="radio" name="genre" value="fantasy">Фантастика
-                </label>
-                    <hr> 
-                <p>Рік виходу фільма</p>
-                <label>
-                    <input type="radio" name="year"  checked value="year1">2000 - 2005
-                </label>
-                <label>
-                    <input type="radio" name="year" value="year2">2005 - 2010
-                </label>
-                <label>
-                    <input type="radio" name="year" value="year3">2010 - 2015
-                </label>
-                <label>
-                    <input type="radio" name="year" value="year4">2015 - 2020
-                </label>
-                    <hr> 
-                <p>Країна</p>
-                <label for="China">
-                    <input id="China" type="checkbox" name="option" value="China">Китай
-                </label> 
-                <label for="Usa">
-                    <input id="Usa" type="checkbox" name="option" value="Usa">Америка
-                </label>  
-                <label for="Europe">
-                    <input id="Europe" type="checkbox" name="option" value="Europe">Європа
-                </label>
-                <label for="Russia">
-                    <input id="Russia" type="checkbox" name="option" value="Russia">Россія
-                </label> 
-                <label for="Ukraine">
-                    <input id="Ukraine" type="checkbox" name="option" value="Ukraine">Україна
-                </label>  
-                <hr>
-                <label>Ім'я:
+            <label>
+                <input type="radio" name="genre" value="comedy">Комедії
+                
+            </label>
+            <label>
+                <input type="radio" name="genre" value="military">Воєнні
+                
+            </label>
+            <label>
+                <input type="radio" name="genre" value="historical">Історичні
+                
+            </label>
+            <label>
+                <input type="radio" name="genre" value="fantasy">Фантастика
+                
+            </label>
+            <hr>
+            <p>Рік виходу фільма</p>
+            <label>
+                <input type="radio" name="year" checked value="year1">2000 - 2005
+                
+            </label>
+            <label>
+                <input type="radio" name="year" value="year2">2005 - 2010
+                
+            </label>
+            <label>
+                <input type="radio" name="year" value="year3">2010 - 2015
+                
+            </label>
+            <label>
+                <input type="radio" name="year" value="year4">2015 - 2020
+                
+            </label>
+            <hr>
+            <p>Країна</p>
+            <label for="China">
+                <input id="China" type="checkbox" name="option" value="China">Китай
+                
+            </label>
+            <label for="Usa">
+                <input id="Usa" type="checkbox" name="option" value="Usa">Америка
+                
+            </label>
+            <label for="Europe">
+                <input id="Europe" type="checkbox" name="option" value="Europe">Європа
+                
+            </label>
+            <label for="Russia">
+                <input id="Russia" type="checkbox" name="option" value="Russia">Россія
+                
+            </label>
+            <label for="Ukraine">
+                <input id="Ukraine" type="checkbox" name="option" value="Ukraine">Україна
+                
+            </label>
+            <hr>
+            <label>
+                Ім'я:
                     <input type="text" placeholder="Ім'я" name="name" required>
-                </label><br> 
-                <label>Ваш емейл:
+            </label>
+            <br>
+            <label>
+                Ваш емейл:
                     <input type="email" placeholder="Ваш емейл" name="mail" required>
-                </label><br>
-	            
-                <input type="submit">
-    </form>
-</body>
-    
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
 </html>
